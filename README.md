@@ -85,7 +85,5 @@ Now your changes are saved! But, you're still on your branch. You can walk away 
 
 So, now you're done with some work and you're ready to merge it in with the `master`? You need to go to the project's GitHub page!
 
-![Image of github page](https://i.imgur.com/jjRTWAE.png)
-
 Click on `branches` and then click `New Pull Request`
 This will create a page where we can all see what changes were made and if there are any conflicts. 
