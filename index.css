@@ -5,6 +5,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    color: #5CA4A9;
+    text-decoration: none;
+}
+a:hover{
+    color: #488387;
+}
+
+.img-thumbnail{
+    width: 55px;
+    height: 55px;
+}
+
+/* .navbar-wrapper {
+    font-size: 18pt;
+    width: auto;
+  }
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+   */
 .welcome-header{
     font-size: 12rem;
     text-align: center;
