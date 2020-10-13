@@ -1,0 +1,31 @@
+body {
+    background-color: #E6EBE0;
+    color: #ED6A5A;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .navbar-wrapper {
+    font-size: 18pt;
+    width: auto;
+  }
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+   */
+.welcome-header{
+    font-size: 12rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.welcome-text{
+    font-size: 2rem;
+    color: #000;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
