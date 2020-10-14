@@ -16,18 +16,9 @@ a:hover{
 .img-thumbnail{
     width: 55px;
     height: 55px;
+    padding: 0;
 }
 
-/* .navbar-wrapper {
-    font-size: 18pt;
-    width: auto;
-  }
-
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-}
-   */
 .welcome-header{
     font-size: 12rem;
     text-align: center;

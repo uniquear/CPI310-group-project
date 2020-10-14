@@ -1,36 +1,16 @@
-body {
-    background-color: #E6EBE0;
-    color: #ED6A5A;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+@import url('index.css'); /*so we don't have to repeat all the basic css code */
 
+.bio-container{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-a{
-    color: #5CA4A9;
-    text-decoration: none;
-}
-a:hover{
-    color: #488387;
+.bio-row{
+    margin-top: 70px;
 }
 
-/*
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius:50%
+.member-name{
+    color: black;
+    padding: 30px 0px 10px 0px;
+    font-size: larger;
 }
-*/
-
-/* .navbar-wrapper {
-    font-size: 18pt;
-    width: auto;
-  }
-
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-}
-   */
