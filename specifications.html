@@ -1,4 +1,4 @@
-<!-- SPECIFICATIONS PAGE -->
+<!-- PROJECT PLAN PAGE -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
+    <link href="specifications.css" rel="stylesheet">
   </head>
 
 <body>
 
+  <!-- LOGO & NAVBAR -->
   <img src="main-logo-alabaster.png" alt="main logo" class="img-thumbnail">
   <div class="container">
     <nav class="navbar navbar-expand">
@@ -30,24 +31,67 @@
     </ul>
     </nav>
   </div>
-    
 
-<div class = "specs-header"> Purpose</div>
-<div class="specs-text">
-  <br> <i>"Can you watch that with your parents?"</i>
+  <!-- HEADING -->
+  <img src= "https://images.unsplash.com/photo-1583996169631-bb182e9870d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" class="img-fluid" alt="Welcome Photo">
+  <div class="main-header"> Specifications.</div>
+
+  <!-- INFORMATION -->
+  <div class="specs-header"> Project Purpose</div>
+  <div class="specs-text">
+    To create a searchable database where users can search for warnings of triggering content such as sexual abuse, torture, cheating (relationships), animal death, and strong language that may or may not be obvious upon engaging with media.Therefore, preventing those who are survivors of abuse, who are diagnosed with PTSD and other mental illnessess or just those who prefer not to see specific content would be able to curate their media content,  without having to go through negative experiences (and triggering episodes, if applicable).
+    <br><br> Although marketed as a website for users that want to watch certain media with family -- namely their parents -- it is within our goal as well to provide services for those that need a service such as this to get a better understanding of what type of media they will be interacted with. 
+    <br><br> The aim is not to spoil the movie, or to ‘ruin’ plot twists, but we here at Warning Watchers, want to encourage a better, more self-aware, more prepared culture of media engagement in the world. We acknowledge that everyone is unique and have their own likes, dislikes, and boundaries as individuals and we hope to provide a tool that will help prevent negative experiences with content that could’ve been easily avoided.
+
+  </div>
+
+  <div class = "specs-header"> List of Deliverables</div>
+  <div class="specs-text">
+    <ul>
+      <li>Pitch</li>
+      <li>Website</li>
+      <li>Web Application
+        <ul>
+          <li><strong>Front End</strong> -- User Interface and Owner/Admin Interface
+          <ul>
+            <li>Developed using HTML, CSS, Javascript with React and BootStrap</li>
+            <li>Template engine handlebars</li>
+          </ul>
+          </li>
+          <li><strong>Back End</strong>
+            <ul>
+              <li>HTTP Server developed in Node.JS with Express</li>
+              <li>DataBase developed in SQLite
+                <ul>
+                  <li>Database specifications (Different tables in database for different purposes)
+                    <ul>
+                      <li>Crowdsourced media information</li>
+                      <li>User account information</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class = "specs-header"> Case Analysis Diagram</div>
+  <div class="specs-text">
+    <img src= "useCaseAnalysisWarningWatchers.png" class="img-diagram" alt="Welcome Photo">
+    <p style="text-align: center;"><i>Created by Kai Sanford and Nate Renfro.</i></p>
+  </div>
 </div>
-<div class = "specs-header"> Deliverables</div>
-<div class="specs-text">
-  <br> <i>"Can you watch that with your parents?"</i>
+
+  <div class = "specs-header"> Database Design Diagram</div>
+  <div class="specs-text">
+    <img src= "datebase design.PNG" class="img-diagram" alt="Welcome Photo">
+    <p style="text-align: center;"><i>Created by Jacob Melendrez and Sammy Romero.</i></p>
+  </div>
 </div>
-<div class = "specs-header"> Case Analysis</div>
-<div class="specs-text">
-  <br> <i>"Can you watch that with your parents?"</i>
-</div>
-<div class = "specs-header"> Database Design</div>
-<div class="specs-text">
-  <br> <i>"Can you watch that with your parents?"</i>
-</div>   
+   
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
