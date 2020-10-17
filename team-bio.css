@@ -40,10 +40,6 @@ html {
     margin: 30px;
 }
 
-.container {
-    padding: 0 25px;
-}
-
 .container::after, .row::after {
     content: "";
     clear: both;
